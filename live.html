@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时光直播</title>
+    <link rel="stylesheet" type="text/css" href="live/live.css"/>
+    <style>
+        .btm {
+            width: 1903px;
+            height: 201px;
+            background-color: #f7f7f7;
+        }
+
+        .container {
+            width: 1000px;
+            height: 157px;
+            margin: 0 auto;
+        }
+
+        .left_1 {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .left_1 > p {
+            margin-top: 5px;
+        }
+
+        .left_1 > p > a {
+            color: black;
+        }
+
+        .container_left {
+            width: 200px;
+            height: 148px;
+            float: left;
+            border-right: 0.5px solid rgba(199, 199, 199, .7);
+        }
+
+        .container_mid {
+            height: 157px;
+        }
+
+        .container_mid > ul {
+            float: left;
+            margin-right: 30px;
+            margin-left: 30px;
+            margin-top: 5px;
+        }
+
+        .container_mid > ul > li {
+            margin-top: 6px;
+        }
+
+        ul:last-child {
+            margin-top: 0px;
+        }
+
+        .img_3 {
+            position: relative;
+            left: 270px;
+            top: -150px;
+        }
+
+        .btm_2 > p {
+            text-align: center;
+            font-size: 12px;
+            color: #7e7e7f;
+        }
+
+        .btm_2 > img {
+            margin-left: 40%;
+            margin-top: 10px;
+        }
+
+        .angle {
+            position: relative;
+        }
+
+        .angle i {
+            display: block;
+            width: 0;
+            height: 0;
+            overflow: hidden;
+            border-bottom: 5px solid #fff;
+            border-left: 7px solid transparent;
+            border-right: 7px solid transparent;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            margin-left: -7px;
+        }
+    </style>
+</head>
+<body>
+<div class="header clearfix">
+    <div class="header-l fl">
+        <ul>
+            <li><a class="change-url" href="#">首页</a></li>
+            <li><a class="change-url" href="#">购票</a></li>
+            <li><a class="change-url" href="#">正版商城</a></li>
+            <li><a class="change-url" href="#">新闻</a></li>
+            <li><a class="change-url" href="#">视频</a></li>
+            <li class="angle"><a class="change-url" href="#">直播</a><i></i></li>
+            <li><a class="change-url" href="#">发现</a></li>
+            <li><a class="change-url" href="#">社区</a></li>
+            <li><a class="change-url" href="#">会员</a></li>
+        </ul>
+    </div>
+    <div class="log"></div>
+    <div class="header-r fr">
+        <ul>
+            <li>
+                <a href="#">
+                    App下载
+                    <img src="" alt="">
+                </a>
+            </li>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+        </ul>
+        <div class="car"></div>
+    </div>
+</div>
+<div style="height: 60px; width: 100%;"></div>
+<div id="bejing">
+    <div class="live-list-wrap">
+        <div id="carousel-mount"></div>
+        <div id="live-mount">
+            <div data-reactroot></div>
+        </div>
+        <div id="top-mount">
+            <div data-reactroot></div>
+        </div>
+        <div id="top1-mount">
+            <div data-reactroot class="top1">
+                <h3 class="primary title wdyy">
+                    <span>我的预约</span>
+                    <a class="kankan-live" target="_blank" href="">
+                        <i class="kankanxing-logo"></i>
+                        <span class="kankanxing-divide"></span>
+                        <span class="kankan-title">直播</span>
+                    </a>
+                </h3>
+                <div class="zhongjian" style="margin-bottom: 0px;">
+                    <div class="box">
+                        <p class="tip">亲~登录了才能预约直播哦~</p>
+                        <a href="" class="login-btn">马上登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="review-mount">
+            <div data-reactroot class="review-wrap">
+                <h3 class="primary title jchf">精彩回放</h3>
+                <div class="reviews">
+                    <div class="review">
+                        <a class="img" title="《急先锋》首映礼">
+                            <img src="live/img/jxf.jpg" width="100%" height="214" alt="《急先锋》首映礼">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a biaoti="《急先锋》首映礼">《急先锋》首映礼</a>
+                            </p>
+                            <p class="renshu">
+                                <span>26万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="《紧急救援》首映礼红毯">
+                            <img src="live/img/jjjy.jpg" width="100%" height="214" alt="《紧急救援》首映礼红毯">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="《紧急救援》首映礼红毯">《紧急救援》首映礼红毯</a>
+                            </p>
+                            <p class="renshu">
+                                <span>16.4万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="唐人街探案3“新春家宴”活动">
+                            <img src="live/img/trjta.jpg" width="100%" height="214" alt="唐人街探案3“新春家宴”活动">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="唐人街探案3“新春家宴”活动">唐人街探案3“新春家宴”活动</a>
+                            </p>
+                            <p class="renshu">
+                                <span>14.9万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="《急先锋》“一起拼吧”誓师主题发布会">
+                            <img src="live/img/jxffbh.jpg" width="100%" height="214" alt="《急先锋》“一起拼吧”誓师主题发布会">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="《急先锋》“一起拼吧”誓师主题发布会">《急先锋》“一起拼吧”誓师主题发布会</a>
+                            </p>
+                            <p class="renshu">
+                                <span>21.2万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="1212首届万达广场美好生活电影节启幕仪式">
+                            <img src="live/img/dyj.jpg" width="100%" height="214" alt="1212首届万达广场美好生活电影节启幕仪式">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="1212首届万达广场美好生活电影节启幕仪式">1212首届万达广场美好生活电影节启幕仪式</a>
+                            </p>
+                            <p class="renshu">
+                                <span>15.8万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="误杀首映礼">
+                            <img src="live/img/ws.jpg" width="100%" height="214" alt="误杀首映礼">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="误杀首映礼">误杀首映礼</a>
+                            </p>
+                            <p class="renshu">
+                                <span>10.4万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="时光电影课-张一凡X曹郁：电影声音魅力剪辑，光影中的丘比特">
+                            <img src="live/img/jj.jpg" width="100%" height="214" alt="时光电影课-张一凡X曹郁：电影声音魅力剪辑，光影中的丘比特">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="时光电影课-张一凡X曹郁：电影声音魅力剪辑，光影中的丘比特">时光电影课-张一凡X曹郁：电影声音魅力剪辑，光影中的丘比特</a>
+                            </p>
+                            <p class="renshu">
+                                <span>29万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="时光电影课-青年导演如何拍好现实题材电影">
+                            <img src="live/img/syr.jpg" width="100%" height="214" alt="时光电影课-青年导演如何拍好现实题材电影">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="时光电影课-青年导演如何拍好现实题材电影">时光电影课-青年导演如何拍好现实题材电影</a>
+                            </p>
+                            <p class="renshu">
+                                <span>9.1万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="《攀登者》“冲顶·中国高度”全球首映礼">
+                            <img src="live/img/pdz.jpg" width="100%" height="214" alt="《攀登者》“冲顶·中国高度”全球首映礼">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="《攀登者》“冲顶·中国高度”全球首映礼">《攀登者》“冲顶·中国高度”全球首映礼</a>
+                            </p>
+                            <p class="renshu">
+                                <span>25.1万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="时光网电影课-青年导演该如何拿到第一笔启动金">
+                            <img src="live/img/qndy.jpg" width="100%" height="214" alt="时光网电影课-青年导演该如何拿到第一笔启动金">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="时光网电影课-青年导演该如何拿到第一笔启动金">时光网电影课-青年导演该如何拿到第一笔启动金</a>
+                            </p>
+                            <p class="renshu">
+                                <span>31.2万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="《中国机长》首映发布会">
+                            <img src="live/img/zgjz.jpg" width="100%" height="214" alt="《中国机长》首映发布会">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="《中国机长》首映发布会">《中国机长》首映发布会</a>
+                            </p>
+                            <p class="renshu">
+                                <span>24.8万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="时光网电影课-与国际电影节操盘手马可·穆勒面对面">
+                            <img src="live/img/mkml.jpg" width="100%" height="214" alt="时光网电影课-与国际电影节操盘手马可·穆勒面对面">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="时光网电影课-与国际电影节操盘手马可·穆勒面对面">时光网电影课-与国际电影节操盘手马可·穆勒面对面</a>
+                            </p>
+                            <p class="renshu">
+                                <span>4.5万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="成年人的尊严来自哪里？">
+                            <img src="live/img/swsqy.jpg" width="100%" height="214" alt="成年人的尊严来自哪里？">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="成年人的尊严来自哪里？">成年人的尊严来自哪里？</a>
+                            </p>
+                            <p class="renshu">
+                                <span>29.9万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="30岁后，生活是否在逼迫女性换一种“活法”？">
+                            <img src="live/img/swsqy1.jpg" width="100%" height="214" alt="30岁后，生活是否在逼迫女性换一种“活法”？">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="30岁后，生活是否在逼迫女性换一种“活法”？">30岁后，生活是否在逼迫女性换一种“活法”？</a>
+                            </p>
+                            <p class="renshu">
+                                <span>26万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <a class="img" title="任达华“我回来了”暨电影《小Q》重聚会">
+                            <img src="live/img/rdh.jpg" width="100%" height="214" alt="任达华“我回来了”暨电影《小Q》重聚会">
+                        </a>
+                        <div class="note">
+                            <p class="biaoti">
+                                <a title="任达华“我回来了”暨电影《小Q》重聚会">任达华“我回来了”暨电影《小Q》重聚会</a>
+                            </p>
+                            <p class="renshu">
+                                <span>22万已观看</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="xiala" style="display: block;">
+                <p>点击查看更多</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="btm">
+    <div class="container">
+        <div class="container_left">
+            <div class="left_1">
+                <img src="live/img/logo_1.png" alt="" width="136" height="44">
+                <p><a href="">加入我们</a>&nbsp;&nbsp;<a href="">联系我们</a></p>
+                <p><a href="">站务论坛</a>&nbsp;&nbsp;<a href="">问题反馈</a></p>
+                <p><a href="">社区准则</a>&nbsp;&nbsp;<a href="">网站地图</a></p>
+                <p><a href="">隐私政策</a>&nbsp;&nbsp;<a href="">English</a></p>
+            </div>
+        </div>
+        <div class="container_mid">
+            <ul>
+                <li>栏目</li>
+                <li>新闻</li>
+                <li>影院</li>
+                <li>商城</li>
+                <li>社区</li>
+            </ul>
+            <ul>
+                <li>推荐</li>
+                <li>观影指南</li>
+                <li>时光对话</li>
+                <li>特色榜单</li>
+                <li>全球拾趣</li>
+            </ul>
+            <ul>
+                <li></li>
+                <li>电影票房</li>
+                <li>新片预告</li>
+                <li>电影猜猜猜</li>
+                <li>卡片大富翁</li>
+            </ul>
+            <img src="live/img/logo_2.png" alt="">
+            <img class="img_3" src="live/img/logo_3.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="btm_2">
+    <p>违法和不良信息举报电话：4006-118-118 举报邮箱：service@mtime.com</p>
+    <p>北京动艺时光网络科技有限公司</p>
+
+    <p>京ICP证050715号京ICP备06000714号-1网络视听许可证0108265号网络文化经营许可证广播电视节目制作经营许可证(京)字第1435号京公网安备：11010502032542号</p>
+    <img src="live/img/logo_4.png" alt="">
+</div>
+</body>
+<script src="js/jquery-3.431.min.js"></script>
+<script src="js/app.js"></script>
+</html>

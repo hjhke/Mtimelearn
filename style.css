@@ -1,0 +1,121 @@
+@import "index/css/header.css";
+@import "index/css/main.css";
+@import "index/css/footer.css";
+/*默认样式*/
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+i,b{
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+/*默认样式结束*/
+
+/*设置隐藏*/
+.none {
+    display: none;
+}
+
+
+/*清除浮动工具*/
+.clearfix::after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    clear: both;
+    height: 0;
+}
+
+/*右上角的更多文字*/
+.cmore {
+    position: absolute;
+    right: -2px;
+    top: 3px;
+    padding-right: 18px;
+    color: #000;
+}
+
+/*旁边的小箭头*/
+.cmore::after {
+    position: absolute;
+    right: 5px;
+    top: 6px;
+    content: " ";
+    height: 8px;
+    width: 8px;
+    border: 1px solid #333;
+    border-top: none;
+    border-left: none;
+    transform: rotate(-45deg);
+}
+/*评分*/
+.movie-grade{
+    background: #74ab34;
+    width: 32px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    font-size: 13px;
+}
+/*绿色按钮*/
+.green-btn{
+    width: 120px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 50px;
+    background: #74ab34;
+}
+/*标题*/
+.h-title {
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    color: #6e6e6e;
+    vertical-align: bottom;
+    margin-right: 10px;
+    margin-bottom: 16px;
+}
+
+/*发现更多*/
+.viewmore{
+    text-align: center;
+    padding-top: 0;
+    margin-top: 30px;
+}
+
+.viewmore a{
+    display: inline-block;
+    width: 158px;
+    line-height: 35px;
+    border: 1px solid #666;
+    color: #666;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+/*全局hover变色*/
+a:hover{
+    color: #1e7dd7;
+}
+

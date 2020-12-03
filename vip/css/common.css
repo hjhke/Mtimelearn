@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px/150% helvetica, "微软雅黑", "microsoft yahei", Verdana, Lucida, arial, sans-serif, "黑体";
+}
+
+a {
+    text-decoration: none;
+    color: #c8c8c8;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* 头部模块开始 */
+
+.head {
+    height: 60px;
+    width: 100%;
+}
+
+.headbar {
+    height: 60px;
+    width: 100%;
+    background: rgba(25, 35, 50, .98);
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 88px 0 20px;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.headbar-nav ul li a {
+    color: #c8c8c8;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.headbar-nav ul li a:hover {
+    color: #fff;
+}
+
+.headbar-nav ul li {
+    position: relative;
+}
+
+.headbar-nav ul li:nth-child(5) span {
+    background: url(../images/head.png) -165px -28px no-repeat;
+    width: 28px;
+    height: 14px;
+    position: absolute;
+    left: 26px;
+    top: 15px;
+}
+
+.headbar-nav ul li:nth-child(9) a {
+    color: #fff;
+    font-weight: 700;
+}
+
+.headbar-nav ul li:nth-child(9) span {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: 7px solid transparent;
+    border-bottom: 5px solid #fff;
+    position: absolute;
+    left: 7px;
+    top: 48px;
+}
+
+.logo a {
+    background: url(../images/head.png) 0 -315px no-repeat;
+    width: 117px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -18px 0 0 -58px;
+}
+
+.headbar-user {
+    float: right;
+}
+
+.headbar-user ul li {
+    line-height: 60px;
+    padding: 0 28px;
+    position: relative;
+    border-right: 1px solid #333;
+}
+
+.headbar-user ul li:first-child a {
+    color: #fff;
+    font-weight: 400;
+    display: block;
+}
+
+.ico-app {
+    width: 13px;
+    height: 20px;
+    background: url(../images/head.png) -54px -45px no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.headbar-user ul li:first-child b {
+    background: url(../images/head.png)-140px 0 no-repeat;
+    height: 4px;
+    width: 7px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -2px;
+}
+
+.headbar-user .appdo {
+    height: 211px;
+    width: 167px;
+    position: absolute;
+    top: 70px;
+    left: -25px;
+    background: url(../images/appdo.png) no-repeat;
+    box-shadow: 1px 1px 3px -1px;
+    display: none;
+}
+
+.headbar-user ul li:first-child span {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border: 7px solid transparent;
+    border-bottom: 5px solid #fff;
+    position: absolute;
+    left: 45px;
+    top: 48px;
+    display: none;
+}
+
+.headbar-user ul li:first-child:hover span {
+    display: block;
+}
+
+.headbar-user ul li:first-child:hover .appdo {
+    display: block;
+}
+
+.headbar-user ul li:last-child {
+    background-color: #e83729;
+    height: 62px;
+    width: 62px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}
+
+.headbar-user ul li:last-child a {
+    background: url(../images/head.png) #e83729 0 -45px no-repeat;
+    width: 26px;
+    height: 20px;
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    display: block;
+}
+
+.headbar-user .shoping {
+    height: 222px;
+    width: 356px;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #fff;
+    box-shadow: 1px 1px 3px -1px;
+    text-align: center;
+    line-height: 222px;
+    font-size: 13px;
+    color: #a5a5a5;
+    display: none;
+}
+
+.headbar-user ul li:last-child:hover .shoping {
+    display: block;
+}
+
+.headbar-user .em {
+    background: url(../images/head.png) -116px -45px no-repeat;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: -150px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.headbar-user .em:hover {
+    background: url(../images/head.png) -134px -45px no-repeat;
+}
+
+/* header头部模块结束 */
+
+/* footer尾部模块 */
+
+.topline {
+    background: url(../images/foot.png) center 0 no-repeat #337fab;
+    height: 4px;
+    width: 100%;
+}
+
+.footout {
+    height: 205px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footout .footlogo {
+    padding: 40px 10px 10px 10px;
+    float: left;
+    width: 200px;
+}
+
+.footout a {
+    font-size: 13px;
+    color: black;
+}
+
+.footout a:hover {
+    color: #1f7ff7;
+}
+
+.footout .footlogo dt a {
+    background: url(../images/head.png) no-repeat;
+    width: 136px;
+    height: 44px;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.footout .footlogo dd {
+    padding-bottom: 2px;
+}
+
+.footout .ml30 {
+    margin-left: 30px;
+}
+
+.footout .footmap {
+    width: 501px;
+    height: 157px;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    position: relative;
+    float: left;
+    top: 40px;
+}
+
+.footout .footmap dl {
+    float: left;
+    margin-left: 60px;
+    line-height: 2em;
+}
+
+.footout .footmap dt {
+    font-size: 13px;
+}
+
+.footout .footmap dd a {
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.footout .footmap .weibo {
+    background: url(../images/foot.png) -140px -9px no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 8px;
+}
+
+.footout .footmap .weixin {
+    background: url(../images/foot.png) -170px -9px no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 8px;
+}
+
+.footout .footmap .rss {
+    background: url(../images/foot.png) -200px -9px no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 8px;
+}
+
+.footout .footweek {
+    width: 280px;
+    float: left;
+    height: 157px;
+    position: relative;
+    top: 40px;
+}
+
+.footout .footweek dl {
+    width: 172px;
+    margin: 0 auto;
+}
+
+.footout .footweek dl dt {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+.footout .footweek dl dt span {
+    font-size: 13px;
+    float: right;
+    margin-bottom: 10px;
+    color: #7d7d7d;
+}
+
+.footout .footweek .input {
+    background: url(../images/foot.png) -330px -34px no-repeat;
+    width: 172px;
+    height: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.footout .footweek dl input {
+    background: 0 0;
+    width: 90px;
+    margin-left: 12px;
+    border: none;
+    height: 22px;
+    color: #c8c8c8;
+    outline: none;
+}
+
+.footout .footweek dl button {
+    background: url(../images/foot.png) -330px -9px no-repeat;
+    width: 54px;
+    height: 25px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    border: 0;
+}
+
+.footout .foothr {
+    width: 205px;
+    float: left;
+    height: 165px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footout .foothr dl dt {
+    font-size: 18px;
+    font-weight: normal;
+    color: #333;
+}
+
+.footout .foothr dl dt span {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #7d7d7d;
+}
+
+.footout .foothr .foothr-app {
+    width: 99px;
+    height: 99px;
+    display: block;
+    background: url(../images/foot.png) -795px -9px no-repeat;
+    margin: 10px auto;
+}
+
+.footer-p {
+    margin-top: 20px;
+}
+
+.footer-p p, .footer-p a {
+    text-align: center;
+    color: rgb(126, 126, 127);
+    margin: 5px 6px;
+    font-size: 12px;
+}
+
+.footer-p p a {
+    margin: 5px 3px;
+}
+
+.footer-p p span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/foot.png) -233px -12px no-repeat;
+}
+
+.footer-p p img {
+    height: 25px;
+    width: 68px;
+    margin: 10px 10px;
+}
+
+.mitimebar {
+    position: fixed;
+    bottom: 5px;
+    right: 0;
+    width: 50px;
+    z-index: 10;
+}
+
+.mitimebar ul li {
+    height: 65px;
+    width: 57px;
+}
+
+.mitimebar ul li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.mitimebar ul li:nth-child(1) {
+    background: url(../images/plugins.png) no-repeat;
+    color: #000;
+}
+
+.mitimebar ul li:nth-child(2) {
+    background: url(../images/plugins.png) 0 -253px no-repeat;
+    color: #000;
+}

@@ -1,0 +1,627 @@
+/* 盒子导航栏开始 */
+
+.box-nav {
+    height: 90px;
+}
+
+.box-nav .vipimg {
+    background: url(../images/box-nav.png) 50% no-repeat transparent;
+    height: 90px;
+    width: 285px;
+    float: left;
+}
+
+.box-nav .vipimg a {
+    height: 90px;
+    width: 285px;
+    display: block;
+}
+
+.box-nav ul {
+    float: left;
+    margin-left: 20px;
+}
+
+.box-nav ul li {
+    float: left;
+    height: 48px;
+    width: 104px;
+    padding-top: 29px;
+}
+
+.box-nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 3px;
+}
+
+.box-nav ul li a:hover {
+    color: #f64b3a;
+}
+
+.box-nav ul li:first-child a {
+    border-bottom: 3px solid #333;
+}
+
+/* 盒子导航栏结束 */
+
+/* 盒子1开始 */
+
+.box1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.box1-left {
+    float: left;
+    width: 285px;
+    height: 360px;
+}
+
+.box1-left1 {
+    height: 147px;
+    width: 285px;
+    padding-top: 20px;
+    background-image: url(../images/box1-left.jfif);
+}
+
+.box1-left11 {
+    background: url(../images/gold.png);
+    width: 38px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 123px;
+}
+
+.box1-left1 h4 {
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 34px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.box1-left12 {
+    background: url(../images/samllpeople.png) 50% no-repeat #dcdcdc;
+    width: 104px;
+    height: 104px;
+    position: absolute;
+    left: 90px;
+    top: 95px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.box1-left2 {
+    height: 213px;
+    width: 285px;
+    margin-left: 3px;
+    background-color: #f8f8f8;
+}
+
+.box1-left2 button {
+    margin: 69px 0 0 15px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    border: 1px solid transparent;
+    color: #fff;
+    background: #1e7dd7;
+    font-size: 14px;
+    width: 120px;
+    display: block;
+    float: left;
+    outline: none;
+    cursor: pointer;
+}
+
+.box1-left2 .bton {
+    margin-right: 0;
+    margin-left: 10px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #c8c8c8;
+}
+
+.box1-left2 .bton:hover {
+    color: #fff;
+    background: #1e7dd7;
+    border: 1px solid transparent;
+}
+
+.box1-left2 p {
+    color: #999;
+    padding-top: 130px;
+    text-align: center;
+}
+
+.box1-right {
+    height: 360px;
+    width: 905px;
+    float: right;
+    background: url(../images/advise.jpg) center no-repeat #f2f2f2;
+}
+
+.box1-right a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+/* 盒子1结束 */
+
+/* 盒子2开始 */
+
+.box2 {
+    padding: 22px 0;
+    position: relative;
+    height: 132px;
+}
+
+.box2-left {
+    float: left;
+    width: 295px;
+    height: 65px;
+    margin: 15px 0 0 25px;
+    background: url(../images/diamond.png) no-repeat;
+}
+
+.box2-left a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.box2-left .box2-leftp {
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.box2-left .box2-leftp h3 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+}
+
+.box2-left .box2-leftp p {
+    padding-top: 6px;
+    color: #666;
+}
+
+.box2-right {
+    height: 100px;
+    width: 880px;
+    overflow: hidden;
+    float: right;
+}
+
+.box2-right ul li {
+    height: 100px;
+    width: 170px;
+    float: left;
+}
+
+.box2-right ul li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.box2-right ul li:nth-child(2) img {
+    margin-top: 6px;
+}
+
+.box2-right ul li:nth-child(3) img {
+    margin-top: 6px;
+}
+
+.box2-right ul li:nth-child(4) img {
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+.box2-right ul li:nth-child(5) img {
+    margin-top: 2px;
+}
+
+/* 盒子2结束 */
+
+/* 盒子3开始 */
+
+.box3 {
+    background: url(../images/box3-bg.jpg) center 0 repeat-x transparent;
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+}
+
+.box3 .title {
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box3 .title h3 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.box3 .title h4 {
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+    color: #999;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.box3 .title h4::before {
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #c8c8c8;
+    width: 600px;
+    content: "";
+    left: -620px;
+}
+
+.box3 .title h4::after {
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #c8c8c8;
+    width: 600px;
+    content: "";
+    left: 110px;
+}
+
+.box3-content {
+    height: 370px;
+    display: flex;
+}
+
+.box3-content img {
+    height: 320px;
+    width: 386px;
+    margin: 22px 27px 0 5px;
+}
+
+.box3-content img:hover {
+    box-shadow: 0 0 15px #666;
+}
+
+.box3-content .box3-right img {
+    height: 150px;
+    width: 367px;
+    margin-bottom: -7px;
+}
+
+.box3 p {
+    text-align: center;
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    font-size: 14px;
+    border: 1px solid #999;
+    color: #888888;
+    margin-top: 20px;
+}
+
+.box3 p:hover {
+    background-color: #1e7dd7;
+    color: #fff;
+    border: 0;
+}
+
+/* 盒子3结束 */
+
+/* 盒子4开始 */
+
+.box4 {
+    height: 624px;
+}
+
+.box4 .title {
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box4 .title h3 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.box4 .title h4 {
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+    color: #999;
+    margin-top: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.box4 .title h4::before {
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #c8c8c8;
+    width: 600px;
+    content: "";
+    left: -610px;
+}
+
+.box4 .title h4::after {
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #c8c8c8;
+    width: 450px;
+    content: "";
+    left: 240px;
+}
+
+.box4 ul {
+    height: 385px;
+    position: relative;
+}
+
+.box4 ul li {
+    float: left;
+    height: 375px;
+    width: 285px;
+    margin: 20px 11px 0 5px;
+}
+
+.box4 ul li:first-child {
+    margin-left: 0;
+}
+
+.box4 ul li a {
+    widows: 285px;
+    height: 185px;
+    display: block;
+    position: relative;
+}
+
+.box4 ul li a i {
+    background: url(../images/box4-wave.png) 0 bottom repeat-x transparent;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+}
+
+.box4 ul li h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.box4 .box4-pay {
+    margin-left: 20px;
+    padding-left: 74px;
+    color: #999;
+    height: 60px;
+    position: relative;
+}
+
+.box4-pay span {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    width: 80px;
+    color: #f64b3a;
+}
+
+.box4-pay p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.box4 ul li button {
+    background: transparent;
+    margin-top: 6px;
+    margin-left: 60px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    border: 1px solid #f64b3a;
+    color: #f64b3a;
+    font-size: 14px;
+    padding: 0 25px;
+    display: block;
+    cursor: pointer;
+}
+
+.box4 ul li:hover {
+    box-shadow: 0 0 10px #999;
+    border: 1px solid #999;
+}
+
+.box4 ul li:hover button {
+    color: #fff;
+    background-color: #f64b3a;
+}
+
+.box4-p {
+    margin-top: 20px;
+    text-align: center;
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    font-size: 14px;
+    border: 1px solid #999;
+    color: #888888;
+}
+
+.box4-p:hover {
+    background-color: #1e7dd7;
+    color: #fff;
+    border: 0;
+}
+
+/* 盒子4结束 */
+
+/* 盒子5开始 */
+
+.box5 {
+    background: linear-gradient(180deg, #edede8, #f4e9dc);
+    height: 855px;
+}
+
+.box5-min {
+    background: url(../images/box5-bg.png) center 90px no-repeat transparent;
+    height: 100%;
+}
+
+.box5-min .title {
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box5-min .title h3 {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.box5-min .title h4 {
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-block;
+    position: relative;
+    color: #999;
+    margin-top: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.box5-min .title h4::before {
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #c8c8c8;
+    width: 550px;
+    content: "";
+    left: -570px;
+}
+
+.box5-min .title h4::after {
+    position: absolute;
+    top: 50%;
+    border-top: 1px solid #c8c8c8;
+    width: 550px;
+    content: "";
+    left: 150px;
+}
+
+.box5-min .vip-level {
+    margin-top: 28px;
+    height: 116px;
+    width: 100%;
+    background: url(../images/vip-level.PNG) no-repeat;
+}
+
+.box5-min p {
+    text-align: center;
+}
+
+.box5-min p a {
+    color: #333;
+    text-decoration: underline;
+    margin-right: 3px;
+}
+
+.box5-min p a:hover {
+    color: #f64b3a;
+}
+
+.box5-min ul {
+    height: 430px;
+    width: 1220px;
+}
+
+.box5-min ul li {
+    width: 285px;
+    height: 160px;
+    margin-top: 55px;
+    margin-right: 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+.box5-min ul li a {
+    width: 75px;
+    height: 75px;
+    display: block;
+    position: absolute;
+    background-color: #f6efe7;
+    border: 5px solid #f6efe7;
+    border-radius: 50%;
+    left: 105px;
+    top: -37px;
+}
+
+.box5-min ul li i {
+    background-color: #ff825a;
+    width: 50px;
+    height: 22px;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: normal;
+    position: absolute;
+    top: -30px;
+    left: 175px;
+    color: #fff;
+    text-align: center;
+}
+
+.box5-min ul li h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.box5-min ul li h5:hover {
+    color: #ff825a;
+}
+
+.box5-min ul li p {
+    line-height: 22px;
+    color: #999;
+    padding: 0 20px;
+}
+
+.box5-p {
+    margin-top: 30px;
+    text-align: center;
+    width: 160px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 18px;
+    font-size: 14px;
+    border: 1px solid #999;
+    color: #888888;
+}
+
+.box5-p:hover {
+    background-color: #1e7dd7;
+    color: #fff;
+    border: 0;
+}
+
+/* 盒子5结束 */
